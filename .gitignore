@@ -1,2 +1,3 @@
 # To ignore tokens
 TOKENS.*
+*.pyc
