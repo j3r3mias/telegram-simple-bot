@@ -63,7 +63,6 @@ available commands\n\n \
 /google [text] - Will generate a Let Me Google That For You link\n\n\n \
 *Optional arguments\n"
                 print chat_id
-                bot.sendMessage(chat_id = chat_id, text = msg)
             elif size == 2:
                 if args[1] == 'help':
                     msg = '/help help - Some help for cloudcbot users'
@@ -72,8 +71,6 @@ available commands\n\n \
 help your friend'
                 else:
                     msg = 'Invalid command! (try again)'
-
-                bot.sendMessage(chat_id = chat_id, text = msg)
 
             bot.sendMessage(chat_id = chat_id, text = msg)
 
